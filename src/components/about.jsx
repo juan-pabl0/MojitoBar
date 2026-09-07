@@ -23,30 +23,31 @@ const About = () => {
 		opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
 	}, '-=0.5')
  })
- 
+
  return (
 	<div id="about">
 	 <div className="mb-16 md:px-0 px-5">
 		<div className="content">
 		 <div className="md:col-span-8">
-			<p className="badge">Best Cocktails</p>
+			<p className="badge">Nuestra Carta</p>
 			<h2>
-			 Where every detail matters <span className="text-white">-</span>
-				from muddle to garnish
+				Venís por los cocktails
+				<span className="text-white"></span> 
+				Te quedás por el ambiente
 			</h2>
 		 </div>
 		 
 		 <div className="sub-content">
 			<p>
-			 Every cocktail we serve is a reflection of our obsession with detail — from the first muddle to the final garnish. That care is what turns a simple drink into something truly memorable.
-			</p>
+Cada cocktail que servimos refleja nuestra atención por los detalles, desde la primera mezcla hasta el garnish final — Nada queda librado al azar.			
+</p>
 			
 			<div>
 			 <p className="md:text-3xl text-xl font-bold">
-				<span>4.5</span>/5
+				<span>El momento es tuyo</span> <br></br>La barra es nuestra
 			 </p>
 			 <p className="text-sm text-white-100">
-				More than +12000 customers
+				Más de 30 años de experiencia en la coctelería.
 			 </p>
 			</div>
 		 </div>

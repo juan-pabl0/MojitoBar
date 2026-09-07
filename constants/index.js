@@ -8,12 +8,12 @@ const navLinks = [
     title: 'Sobre nosotros',
   },
   {
-    id: 'work',
+    id: 'art',
     title: 'El arte',
   },
   {
     id: 'contact',
-    title: 'Contact',
+    title: 'Contacto',
   },
 ];
 
@@ -89,33 +89,31 @@ const profileLists = [
 ];
 
 const featureLists = [
-  'Perfectly balanced blends',
-  'Garnished to perfection',
-  'Ice-cold every time',
-  'Expertly shaken & stirred',
+  'Una identidad propia',
+  'Detalles que hacen la diferencia',
+  'Distintas formas de vivir Menta',
+  'De la idea al espacio',
 ];
 
 const goodLists = [
-  'Handpicked ingredients',
-  'Signature techniques',
-  'Bartending artistry in action',
-  'Freshly muddled flavors',
+  'Un espacio pensado desde cero',
+  'Arquitectura que también comunica',
+  'Diseño, música y ambiente',
+  'Un lugar para quedarse',
 ];
-
 const storeInfo = {
-  heading: 'Where to Find Us',
-  address: '456, Raq Blvd. #404, Los Angeles, CA 90210',
+  heading: 'Vení a Menta',
+  address: 'Rosario, Santa Fe, Argentina',
   contact: {
-    phone: '(555) 987-6543',
-    email: 'hello@jsmcocktail.com',
+    phone: '(0341) 456-7823',
+    email: 'mentabar@gmail.com',
   },
 };
-
 const openingHours = [
-  { day: 'Mon–Thu', time: '11:00am – 12am' },
-  { day: 'Fri', time: '11:00am – 2am' },
-  { day: 'Sat', time: '9:00am – 2am' },
-  { day: 'Sun', time: '9:00am – 1am' },
+  { day: 'Lunes – Jueves', time: '18:00 – 01:00' },
+  { day: 'Viernes', time: '18:00 – 03:00' },
+  { day: 'Sábado', time: '18:00 – 03:00' },
+  { day: 'Domingo', time: '18:00 – 01:00' },
 ];
 
 const socials = [
@@ -139,35 +137,35 @@ const socials = [
 const sliderLists = [
   {
     id: 1,
-    name: 'Classic Mojito',
+    name: 'Pink Gin Tonic',
     image: '/images/drink1.png',
-    title: 'Simple Ingredients, Bold Flavor',
+    title: 'Fresco, simple y con actitud',
     description:
-      'Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.',
+      'Gin, tónica y un toque frutal que le da su característico color rosado. Fresco, ligero y perfecto para arrancar la noche.',
   },
   {
     id: 2,
     name: 'Raspberry Mojito',
     image: '/images/drink2.png',
-    title: 'A Zesty Classic That Never Fails',
+    title: 'Un clásico con un giro',
     description:
-      'The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.',
+      'Ron, lima, menta y frambuesas se combinan para darle una vuelta fresca y frutal a uno de los clásicos que nunca falla.',
   },
   {
     id: 3,
-    name: 'Violet Breeze',
+    name: 'Aperol Spritz',
     image: '/images/drink3.png',
-    title: 'Simple Ingredients, Bold Flavor',
+    title: 'El clásico que siempre invita',
     description:
-      'Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.',
+      'Aperol, espumante y soda en una combinación fresca, amarga y equilibrada. Servido bien frío, como tiene que ser.',
   },
   {
     id: 4,
     name: 'Curacao Mojito',
     image: '/images/drink4.png',
-    title: 'Crafted With Care, Poured With Love',
+    title: 'Hecho para disfrutar',
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      'Una combinación fresca y vibrante, preparada con ingredientes seleccionados y el toque de Menta que hace la diferencia.',
   },
 ];
 
